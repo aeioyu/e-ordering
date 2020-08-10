@@ -1,0 +1,24 @@
+{
+  "name": "e-ordering",
+  "version": "1.0.0",
+  "private": true,
+  "workspaces": [
+    "core/pwa-studio",
+    "core/pwa-studio/packages/*",
+    "core/pwa-studio/packages/extensions/*",
+    "cto-packages/*"
+  ],
+  "scripts": {
+    "build": "yarn workspace @magento/pwa-studio run build",
+    "start": "yarn workspace @magento/pwa-studio run watch:venia"
+  },
+  "peerDependencies": {
+    "@magento/pwa-buildpack": "*",
+    "@magento/venia-ui": "*",
+    "react": "~16.9.0",
+    "react-router-dom": "~5.1.0"
+  },
+  "devDependencies": {
+    "webpack": "^4.44.1"
+  }
+}
