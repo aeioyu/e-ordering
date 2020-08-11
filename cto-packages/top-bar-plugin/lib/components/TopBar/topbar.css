@@ -1,9 +1,5 @@
-body {
-    background-color: red;
-}
-
 .root {
-    background-color: rgb(var(--venia-teal));
+    background-color: #dddddd;
     padding: 0.5rem;
     color: #fff;
     display: grid;

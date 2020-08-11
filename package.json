@@ -10,15 +10,14 @@
   ],
   "scripts": {
     "build": "yarn workspace @magento/pwa-studio run build",
-    "start": "yarn workspace @magento/pwa-studio run watch:venia"
+    "build:dev": "yarn workspace @magento/pwa-studio run build:dev",
+    "watch": "yarn workspace @magento/pwa-studio run watch:venia",
+    "watch:all": "yarn workspace @magento/pwa-studio run watch:all"
   },
   "peerDependencies": {
     "@magento/pwa-buildpack": "*",
     "@magento/venia-ui": "*",
     "react": "~16.9.0",
     "react-router-dom": "~5.1.0"
-  },
-  "devDependencies": {
-    "webpack": "^4.44.1"
   }
 }
